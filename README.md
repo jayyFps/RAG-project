@@ -155,6 +155,18 @@ Regulasi/internal policy perusahaan **jarang tersedia publik** karena bersifat r
 - [x] Strategi data (A/B/C) sudah diputuskan dan alasannya siap dipertanggungjawabkan. → **B + C**
 - [x] `data/` sudah masuk `.gitignore`.
 
+### 1.6 Akses Data untuk Reviewer
+
+Arsip **ZIP asli tidak disimpan di repositori GitHub** (batas unggah per file GitHub = 100 MB, sedangkan arsip terbesar ±2,2 GB). Data tetap dapat diakses/diunduh ulang sepenuhnya melalui:
+
+| Jalur akses | Keterangan |
+|---|---|
+| **Sumber publik (resmi)** | [Hugging Face — ID_Regulations](https://huggingface.co/datasets/horelulus/ID_Regulations) (lisensi Apache-2.0, 293 arsip ZIP). Reviewer/dosen dapat mengunduh langsung; notebook `01_unduh_dataset` menjamin reproduksi penuh dengan satu kali jalankan. |
+| **Arsip ZIP lokal** | Salinan lokal 2,24 GB (batch-1-chunk-1 + batch-10-chunk-1) dibagikan via tautan eksternal bila diminta: `<tempel tautan Google Drive/OneDrive di sini>`. |
+| **Manifes & versi** | `data/raw/ID_Regulations/_manifest.json` (hash & jumlah PDF per arsip) — diregenerasi otomatis oleh notebook 01. |
+
+> Kebijakan: berkas mentah (ZIP, PDF ter-extract, manifold) **selalu dikecualikan dari Git** (`.gitignore`) agar repo publik tetap ringan; validitas data dijaga lewat **hash di tabel 1.4** dan `_manifest.json`, bukan lewat unggahan berkas besar.
+
 ---
 
 ## Langkah 2 — Persiapan Lingkungan Pengembangan Lokal
