@@ -1,0 +1,23 @@
+# Data & artefak besar (JANGAN masuk Git)
+data/raw/*
+data/processed/*
+vectorstore/
+model/*.bin
+model/*.gguf
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Referensi tugas/metopen (bukan bagian proyek; JANGAN di-push)
+/*.pdf
+/outline.docx
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.env
+
+# OS/editor
+.DS_Store
+Thumbs.db

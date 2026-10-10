@@ -1,0 +1,4 @@
+id,pertanyaan,jawaban_referensi,sumber,rincian_sumber,kategori,tingkat_kesulitan
+QA-001,"Berapa lama waktu kerja lembur maksimal dalam sehari?","Waktu kerja lembur hanya dapat dilakukan paling lama 4 jam dalam 1 hari dan 18 jam dalam 1 minggu.","<ganti-dengan-dok-xxxx.pdf>","Pasal 26 ayat (1)","ketenagakerjaan","sedang"
+QA-002,"Apa saja tiga unsur utama yang wajib diperhatikan dalam perjanjian kerja?","Tiga unsur utama perjanjian kerja adalah pekerjaan atau kewajiban pekerja, upah, dan perintah atau batasan yang berlaku saat menjalani pekerjaan.","<ganti-dengan-dok-xxxx.pdf>","Pasal 52","ketenagakerjaan","mudah"
+QA-003,"Apa dasar hukum kewajiban pemberian THR bagi pekerja swasta?","Dasar hukum pemberian THR bagi pekerja swasta adalah Peraturan Menteri Ketenagakerjaan Nomor 6 Tahun 2016, dengan besaran 1 kali gaji bila telah bekerja 12 bulan secara terus-menerus.","<ganti-dengan-dok-xxxx.pdf>","Permenaker 6/2016","ketenagakerjaan","sedang"

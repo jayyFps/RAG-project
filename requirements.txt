@@ -1,0 +1,23 @@
+# --- inti RAG ---
+langchain==0.3.*
+langchain-community==0.3.*
+chromadb==0.5.*          # vector store lokal (alternatif: faiss-cpu)
+sentence-transformers==3.0.*
+pypdf==5.*               # parsing PDF
+python-docx==1.*         # parsing DOCX (SOP perusahaan)
+
+# --- Local LLM ---
+ollama==0.4.*            # klien Python ke server Ollama
+
+# --- evaluasi ---
+ragas==0.2.*             # faithfulness, answer relevancy, context precision/recall
+langchain-ollama==0.2.*  # LLM & embedding lokal untuk RAGAS (tanpa API eksternal)
+datasets==3.*
+pandas==2.*
+scikit-learn==1.*
+
+# --- utilitas ---
+python-dotenv==1.*
+tqdm==4.*
+psutil==5.*               # pantau RAM/CPU untuk metrik efisiensi (RQ4)
+jupyterlab==4.*
